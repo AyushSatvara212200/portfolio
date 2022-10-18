@@ -1,0 +1,37 @@
+#about {
+  width: 100%;
+  height: 650px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#about-heading {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#about-heading hr {
+  width: 90%;
+}
+#about-name {
+  font-size: 2.5vw;
+  font-family: Acme;
+  background-image: linear-gradient(
+    45deg,
+    #0013e5 16.666%,
+    #008c7f 33.333%,
+    #00377f 50%,
+    #5d007f 66.666%,
+    #ea007f 83.333%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

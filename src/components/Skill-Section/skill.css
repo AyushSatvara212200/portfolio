@@ -1,0 +1,518 @@
+#skill {
+  width: 100%;
+  height: 650px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#skill-heading {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#skill-heading hr {
+  width: 90%;
+}
+#skill-name {
+  font-size: 2.5vw;
+  font-family: Acme;
+  background-image: linear-gradient(
+    45deg,
+    #0013e5 16.666%,
+    #008c7f 33.333%,
+    #00377f 50%,
+    #5d007f 66.666%,
+    #ea007f 83.333%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#design-div {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+#bars {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#progress-bar {
+  width: 300px;
+  height: 30px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: Acme;
+}
+#progress {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#progress-1 {
+  /* width: 120px; */
+  height: 30px;
+  position: absolute;
+  border-radius: 20px;
+  animation: progress1 4s infinite;
+}
+#progress-2 {
+  /* width: 80px; */
+  height: 30px;
+  position: absolute;
+  border-radius: 20px;
+  animation: progress2 4s infinite;
+}
+#progress-3 {
+  /* width: 80px; */
+  height: 30px;
+  position: absolute;
+  border-radius: 20px;
+  animation: progress3 4s infinite;
+}
+#progress-4 {
+  /* width: 80px; */
+  height: 30px;
+  position: absolute;
+  border-radius: 20px;
+  animation: progress4 4s infinite;
+}
+#progress-5 {
+  /* width: 80px; */
+  height: 30px;
+  position: absolute;
+  border-radius: 20px;
+  animation: progress5 4s infinite;
+}
+#progress-6 {
+  /* width: 80px; */
+  height: 30px;
+  position: absolute;
+  border-radius: 20px;
+  animation: progress6 4s infinite;
+}
+@keyframes progress1 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 120px;
+  }
+}
+@keyframes progress2 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 250px;
+  }
+}
+@keyframes progress3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 190px;
+  }
+}
+@keyframes progress4 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20px;
+  }
+}
+@keyframes progress5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 220px;
+  }
+}
+@keyframes progress6 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+#design {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  position: relative;
+  animation: spin 8s infinite linear;
+  transform-style: preserve-3d;
+}
+#design-1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(106, 106, 106, 0.4);
+  position: absolute;
+  transform: rotateX(0deg) translateZ(120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#design-logo {
+  width: 200px;
+  height: 150px;
+}
+#design-2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 255, 255, 0.7);
+  position: absolute;
+  transform: rotateX(-90deg) translateZ(120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#design-3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 215, 0, 0.7);
+  position: absolute;
+  transform: rotateY(90deg) translateZ(120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#design-4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 255, 0.7);
+  position: absolute;
+  transform: rotateY(-90deg) translateZ(120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#design-5 {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 0, 0, 0.7);
+  position: absolute;
+  transform: rotateX(180deg) translateZ(120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#design-6 {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 0, 0.7);
+  position: absolute;
+  transform: rotateX(90deg) translateZ(120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+@keyframes spin {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+@media screen and (max-width: 600px) {
+  #skill {
+    width: 100%;
+    height: 660px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #skill-heading {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #skill-heading hr {
+    width: 90%;
+    margin: 0;
+  }
+  #skill-name {
+    font-size: 25px;
+    font-family: Acme;
+    background-image: linear-gradient(
+      45deg,
+      #0013e5 16.666%,
+      #008c7f 33.333%,
+      #00377f 50%,
+      #5d007f 66.666%,
+      #ea007f 83.333%
+    );
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #design-div {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+  }
+  #bars {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #progress-bar {
+    width: 80%;
+    height: 30px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: Acme;
+  }
+  #progress {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #progress-1 {
+    /* width: 120px; */
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    animation: progress1 5s infinite;
+    animation-delay: 3s;
+  }
+  #progress-2 {
+    /* width: 80px; */
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    animation: progress2 5s infinite;
+    animation-delay: 3s;
+  }
+  #progress-3 {
+    /* width: 80px; */
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    animation: progress3 5s infinite;
+    animation-delay: 3s;
+  }
+  #progress-4 {
+    /* width: 80px; */
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    animation: progress4 5s infinite;
+    animation-delay: 3s;
+  }
+  #progress-5 {
+    /* width: 80px; */
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    animation: progress5 5s infinite;
+    animation-delay: 3s;
+  }
+  #progress-6 {
+    /* width: 80px; */
+    height: 30px;
+    position: absolute;
+    border-radius: 20px;
+    animation: progress6 5s infinite;
+    animation-delay: 3s;
+  }
+  @keyframes progress1 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 120px;
+    }
+  }
+  @keyframes progress2 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 250px;
+    }
+  }
+  @keyframes progress3 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 190px;
+    }
+  }
+  @keyframes progress4 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 20px;
+    }
+  }
+  @keyframes progress5 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 220px;
+    }
+  }
+  @keyframes progress6 {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+  #design {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    position: relative;
+    animation: spin 8s infinite linear;
+    transform-style: preserve-3d;
+  }
+  #design-1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(106, 106, 106, 0.4);
+    position: absolute;
+    transform: rotateX(0deg) translateZ(90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  #design-logo {
+    width: 100px;
+    height: 100px;
+  }
+  #design-2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 255, 255, 0.7);
+    position: absolute;
+    transform: rotateX(-90deg) translateZ(90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  #design-3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 215, 0, 0.7);
+    position: absolute;
+    transform: rotateY(90deg) translateZ(90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  #design-4 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 255, 0.7);
+    position: absolute;
+    transform: rotateY(-90deg) translateZ(90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  #design-5 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 0, 0, 0.7);
+    position: absolute;
+    transform: rotateX(180deg) translateZ(90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  #design-6 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 0, 0.7);
+    position: absolute;
+    transform: rotateX(90deg) translateZ(90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  @keyframes spin {
+    from {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    to {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+}

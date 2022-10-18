@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(178, 202, 251, 0.656);
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  backdrop-filter: blur(2px);
+  -webkit-tap-highlight-color: transparent;
+}
+#logo {
+  width: 80px;
+  height: 60px;
+}
+#logo-img {
+  width: 80px;
+  height: 60px;
+}
+#disp-title {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  -webkit-backdrop-filter: blur(4px);
+}
+
+#disp-title a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: "Acme", sans-serif;
+  background-image: linear-gradient(
+    45deg,
+    #0013e5 16.666%,
+    #008c7f 33.333%,
+    #00377f 50%,
+    #5d007f 66.666%,
+    #ea007f 83.333%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 600px) {
+  #navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(178, 202, 251, 0.656);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    backdrop-filter: blur(2px);
+    -webkit-tap-highlight-color: transparent;
+  }
+  #logo {
+    width: 80px;
+    height: 60px;
+  }
+  #logo-img {
+    width: 80px;
+    height: 60px;
+  }
+  #disp-title {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(178, 202, 251, 0.9)
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 6;
+    position: absolute;
+    margin-top: 260px;
+    text-decoration: none;
+    -webkit-backdrop-filter: blur(4px);
+  }
+  hr {
+    width: 90%;
+    border: 0.5px solid gray;
+  }
+  #disp-title a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: "Acme", sans-serif;
+    background-image: linear-gradient(
+      270deg,
+      #0013e5 16.666%,
+      #008c7f 33.333%,
+      #00377f 50%,
+      #5d007f 66.666%,
+      #ea007f 83.333%
+    );
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #Menu-div {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
